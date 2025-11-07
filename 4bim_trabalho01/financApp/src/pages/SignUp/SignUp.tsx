@@ -13,6 +13,8 @@ import {
   ErrorText,
 } from './styles';
 
+import {useAuth} from '../../contexts/auth';
+
 type AuthStackParamList = {
   SignIn: undefined;
 };
